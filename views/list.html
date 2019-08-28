@@ -1,0 +1,27 @@
+<html>
+<body>
+    <h1> 
+        <a href="http://localhost:8080">Home</a>
+        <a href="http://localhost:8080/add">Add Task</a>
+    </h1>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Due Date</td>
+            <td>Description</td>
+        </tr>
+        <% for ( var i =0; i< ar.length;i++){ %>
+            <tr>
+                <td>
+                    <%= ar[i].name%>
+                </td>
+                <td>
+                    <%= ar[i].dueDate %>
+                </td>
+                <td>
+                    <%= ar[i].description%>
+                </td>
+            </tr>
+        <% }%>
+</body>
+</html>

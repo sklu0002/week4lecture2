@@ -1,0 +1,40 @@
+<html>
+<body>
+    <head>
+        <style>
+            body { background-color: #FF0000; }
+        </style>
+    </head>
+    <h1> 
+        <img src="Unknown.jpg"/>
+    </h1>
+    <a href="http://localhost:8080/add">Add New Task</a>
+    <a href="http://localhost:8080/list">List Task</a>
+</body>
+</html>
+
+<!--for some reason it kept directing to index.html so 
+    i changed index.html to be identical to homepage.html. Here is the old index.html: 
+
+<html>
+<body>
+    <h1> 
+        Welcome to <%= userName %> 
+    </h1>
+    <ul>
+        <% for(let i=0; i<ar.length; i++){ %>
+        <li>
+            <%= ar[i].username %> | <%= ar[i].userage %> 
+        </li>
+            <%}%>
+    </ul>
+    <form action="/data" method="POST">
+        User Name:
+        <input type="text" name="username" /> </br>
+        User Age:
+        <input type="number" name="userage" /> </br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+-->
