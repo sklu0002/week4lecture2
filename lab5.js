@@ -6,14 +6,9 @@ app.set('view engine', 'html');
 
 let db =[];
 
-//still to do: 
-//- upload to github
-//-fix issue where it doesnt go to home page for some reason
-//-fix table to look like table
-//-change the background of the pages into any colour you prefer using a CSS file
-
 app.use(express.static('img'));
 app.use(express.static('views'));
+//app.use(express.static('background'));
 
 app.use(bodyParser.urlencoded({
     extended: false
